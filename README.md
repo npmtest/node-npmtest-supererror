@@ -1,6 +1,6 @@
 # npmtest-supererror
 
-#### test coverage for  [supererror (v0.7.1)](https://github.com/nebulade/supererror)  [![npm package](https://img.shields.io/npm/v/npmtest-supererror.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-supererror) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-supererror.svg)](https://travis-ci.org/npmtest/node-npmtest-supererror)
+#### basic test coverage for  [supererror (v0.7.1)](https://github.com/nebulade/supererror)  [![npm package](https://img.shields.io/npm/v/npmtest-supererror.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-supererror) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-supererror.svg)](https://travis-ci.org/npmtest/node-npmtest-supererror)
 
 #### Colorful console.error replacement
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-supererror/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-supererror/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-supererror/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-supererror/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-supererror/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-supererror/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-supererror/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-supererror/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-supererror/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-supererror/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-supererror/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-supererror/build/coverage.html/index.html)
 
@@ -75,7 +75,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "version": "0.7.1"
+    "version": "0.7.1",
+    "bin": {}
 }
 ```
 
